@@ -7,6 +7,23 @@ img.logo {
     width: 4em;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.content-card {
+    margin: 5px;
+    border: 1px none;
+    border-radius: 10px;
+    box-shadow: 4px 6px 8px #d0cbcb;
+    padding: 5%;
+}
+
 .sliderhead {
     width: 100%;
     overflow: hidden;
