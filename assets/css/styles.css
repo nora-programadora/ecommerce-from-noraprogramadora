@@ -3,6 +3,10 @@ img {
     width: 100%;
 }
 
+img.logo {
+    width: 4em;
+}
+
 .sliderhead {
     width: 100%;
     overflow: hidden;
