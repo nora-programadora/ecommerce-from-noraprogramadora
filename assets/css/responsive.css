@@ -20,7 +20,7 @@
     .row {
         padding: 1em 0em;
     }
-    
+
     .login {
         margin: 1em auto;
         display: flex;
@@ -38,6 +38,11 @@
         grid-template-rows: auto;
         grid-template-columns: 100%;
         grid-gap: 5px;
+    }
+
+    .slider-buttons {
+        height: 460px;
+        justify-content: center;
     }
 
 }

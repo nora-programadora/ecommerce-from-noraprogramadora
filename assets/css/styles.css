@@ -143,57 +143,6 @@ a:hover {
     
 }
 
-.slider-buttons {
-    width: 100%;
-    height: 350px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    position: relative;
-    list-style: none;
-}
-.slider-buttons div.card-slider {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 80%;
-    margin: 1em 5%;
-    opacity: 0;
-    transition: all 0.7s;
-}
-
-div.card-slider img {
-    height: 180px;
-}
-.info-detail{
-    height: 200px;
-    width: 100%;
-}
-.info-detail label{
-    font-weight: 600;
-    color: chocolate;
-    font-size: 16px;
-    float: left;
-}
-.info-detail p {
-    font-size: 14px;
-    float: left;
-    width: 100%;
-    text-align: left;
-}
-.slider-buttons input[type="radio"]{
-    position: relative;
-    z-index: 50;
-    margin: 10px;
-}
-
-.slider-buttons input[type="radio"]:checked ~ div.card-slider {
-    opacity: 1;
-}
-.row-project .slider-buttons li{
-    list-style: none;
-}
 
 footer {
     padding: 3em;
@@ -207,4 +156,33 @@ footer a {
 
 footer a:hover{
     color: rgb(199, 208, 23);
+}
+
+.slider-buttons {
+    width: 100%;
+    height: 280px;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    list-style: none;
+} 
+
+.slider-buttons div.card-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 1em 5%;
+    opacity: 0;
+    transition: all 0.7s;
+}
+
+.slider-buttons input[type="radio"]{
+    position: relative;
+    z-index: 50;
+    margin: 10px;
+}
+
+.slider-buttons input[type="radio"]:checked ~ div.card-slider {
+    opacity: 1;
 }
