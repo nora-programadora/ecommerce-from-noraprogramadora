@@ -1,0 +1,43 @@
+@media screen and (max-width:600px){
+    
+    .hide-at-phone {
+        display: none;
+    }
+
+    .full-with-at-phone {
+        width: 100%;
+    }
+
+    .half-with-at-phone {
+        width: 50%;
+    }
+
+    
+    .footer {
+        text-align: center;
+    }
+
+    .row {
+        padding: 1em 0em;
+    }
+    
+    .login {
+        margin: 1em auto;
+        display: flex;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 100%;
+        grid-gap: 5px;
+    }
+
+    .grid-container-1 {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 100%;
+        grid-gap: 5px;
+    }
+
+}

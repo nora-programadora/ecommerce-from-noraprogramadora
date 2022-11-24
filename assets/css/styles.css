@@ -24,6 +24,10 @@ a:hover {
     color: black;
 }
 
+.jumbotron {
+    padding: 2em 0em;
+}
+
 .btn-center {
     margin: 1em auto;
     display: flex;
@@ -35,6 +39,22 @@ a:hover {
     border-radius: 10px;
     box-shadow: 4px 6px 8px #d0cbcb;
     padding: 5%;
+}
+
+
+.grid-container {
+    /*display: grid;*/
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-gap: 5px;
+    display: flex;
+}
+
+.grid-container-1 {
+    display: grid;
+    grid-template-rows: 50%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-gap: 5px;
 }
 
 .sliderhead {
@@ -123,25 +143,6 @@ a:hover {
     
 }
 
-
-
-.grid-container {
-    /*display: grid;*/
-    grid-template-rows: auto;
-    grid-template-columns: auto;
-    grid-gap: 5px;
-    display: flex;
-}
-
-.grid-container-1 {
-    display: grid;
-    grid-template-rows: 50%;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-gap: 5px;
-}
-
-
-
 .slider-buttons {
     width: 100%;
     height: 350px;
@@ -192,4 +193,18 @@ div.card-slider img {
 }
 .row-project .slider-buttons li{
     list-style: none;
+}
+
+footer {
+    padding: 3em;
+    background: black;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover{
+    color: rgb(199, 208, 23);
 }
